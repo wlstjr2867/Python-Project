@@ -34,6 +34,7 @@ class WritePage(QWidget):
         self.layout.addRow("제목", self.input_title)
         self.layout.addRow("내용", self.input_content)
         self.layout.addRow("작성자", self.input_author)
+        # 버튼들을 가로로 묶은 레이아웃을 한 행으로 추가
         self.layout.addRow(btn_layout)
         
         # 버튼 클릭시 동작 연결
