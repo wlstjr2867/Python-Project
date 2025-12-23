@@ -9,10 +9,11 @@ from pages.edit_page import EditPage
 
 # 앱 시작
 def main() : 
+    # Qt 애플리케이션 객체 생성
     app = QApplication(sys.argv)
     
     # 페이지 컨테이너
-    stack = QStackedWidget()
+    stack = QStackedWidget() # 여러 페이지를 담아둘 스택 위젯 생성
     stack.resize(700, 500)
     
     # DB 매니저
@@ -89,10 +90,11 @@ def main() :
     
     # 시작페이지
     stack.setCurrentIndex(0)
+    # 실제 창을 화면에 표시
     stack.show()
-    
+    # Qt 이벤트 루프 시작
     sys.exit(app.exec())
 
-
+# 프로그램 시작점 (이 파일을 직접 실행했을때만 main()실행)
 if __name__ == "__main__":
     main()
