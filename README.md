@@ -23,6 +23,7 @@ Python
 ## 4. 기능 설명
 
 **Python 3.14(64-bit 버전)**
+
 이 애플리케이션은 PySide6와 SQLite를 사용한 간단한 게시판 프로그램입니다. 
 게시글의 작성, 조회, 수정, 삭제 (CRUD) 기능을 제공하며 
 QStackedWidget과 Signal-Slot 구조를 사용해 페이지 간 전환을 구현했습니다.
