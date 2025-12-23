@@ -18,4 +18,6 @@ Python
 
 ## 3. 실행 화면
 
+![python 2025-12-23 13-07-20](https://github.com/user-attachments/assets/455a4dfe-62ba-4b87-adc0-880b4c99d7d3)
+
 ## 4. 기능 설명
